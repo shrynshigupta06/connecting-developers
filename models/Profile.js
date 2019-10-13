@@ -13,13 +13,13 @@ const ProfileSchema = new Schema ({
 		max: 40
 	},
 	company: {
-		type: String
+		type: String, required: true
 	},
 	website: {
 		type: String
 	},
 	location: {
-		type: String
+		type: String, required: true
 	},
 	status: {
 		type: String,
